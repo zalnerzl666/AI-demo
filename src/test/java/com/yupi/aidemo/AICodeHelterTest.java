@@ -11,6 +11,6 @@ class AICodeHelterTest {
 private AICodeHelter aiCodeHelter;
   @Test
   void chat() {
-    aiCodeHelter.chat();
+    aiCodeHelter.chat("嗨喽我是程序员 zalner");
   }
 }
