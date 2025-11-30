@@ -1,3 +1,5 @@
 spring:
   application:
-   name:AI-demo
+   name: AI-demo
+  config:
+    import: applicationai.yml

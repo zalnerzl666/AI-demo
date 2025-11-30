@@ -7,8 +7,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 import static org.junit.jupiter.api.Assertions.*;
 @SpringBootTest
 class AICodeHelterTest {
-@Resource
-private AICodeHelter aiCodeHelter;
+   @Resource
+   private AICodeHelter aiCodeHelter;
   @Test
   void chat() {
     aiCodeHelter.chat("嗨喽我是程序员 zalner");
